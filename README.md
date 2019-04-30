@@ -14,24 +14,25 @@ Please add "Python Deky.pyt Toolbox" to the ArcGIS toolbox to use it.
 This Python toolbox contains three tools:
 
 ##### 1. Flooded Structure Analysis
-This tool will analyze buildings that are flooded for each type of building based on flood area data.
-For this analysis the data needed are: 1) Distribution of structures (point, * .shp); 2) Flood area (polygon, * .shp); and delineation of area (polygon, * .shp).
-The output of the analysis is: 1) the distribution of buildings is flooded based on its type; 2) Heatmap is the number of buildings flooded per square kilometer; and 3) summary of the number of flooded buildings in the form of excel tables.
+This tool will analyze buildings/structures that are flooded based on flood area data.
+- The input data needed are: 1) Distribution of buildings/structures (point, * .shp); 2) Flood area (polygon, * .shp); and delineation of area/town (polygon, * .shp).
+- The output are: 1) the distribution of flooded buildings/structures based on its type; 2) Heatmap is the number of buildings/structures flooded per square kilometer; and 3) summary of the number of flooded buildings/structres in the form of excel tables.
 
-![Banner Image](/image/Picture3.png?raw=true)
+<img src="https://github.com/deqiu1st/Python-Toolbox/blob/master/image/Picture3.png" width="500">
 
 ##### 2. Fetch Analysis
-This tool will analyze the fetch that is formed from a location by considering the condition of the coastline in a waters.
-For this analysis the data needed is: 1) point location (point, * .shp); and polygons of waters with coastlines (polygon, * .shp).
-The output of the analysis is: 1) fetch line; and 2) fetch summary with length information and standard deviation in the form of excel tables.
+This tool will analyze the fetch that is formed from a location by considering the condition/shape of the coastline.
+- The input data needed are: 1) point location (point, * .shp); and polygons of waters with coastlines (polygon, * .shp).
+- The output are: 1) fetch line; and 2) fetch summary with length information and standard deviation in the form of excel tables.
 
-![Banner Image](/image/Picture4.png?raw=true)
+<img src="https://github.com/deqiu1st/Python-Toolbox/blob/master/image/Picture4.png" width="500">
 
 ##### 3. Heatmap Analysis
 This tool will analyze the distribution of biota location by species in the form of heatmap.
-For this analysis the data needed is a distribution table of biota locations in the form of * .csv.
-The output of this analysis is heatmap per species (polygon, * shp)
+- The input data needed is a table of biota locations in the form of * .csv.
+- The output is heatmap per species (polygon, * shp)
 
-![Banner Image](/image/Picture5.png?raw=true)
+<img src="https://github.com/deqiu1st/Python-Toolbox/blob/master/image/Picture5.png" width="500">
 
-Please see the example input file for detailed format and the required array of attributes before you use it to input other files.
+
+***Please see the example input file for detailed format and the required array of attributes before you use it for other input files.***

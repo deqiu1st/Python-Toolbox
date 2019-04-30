@@ -22,7 +22,7 @@ This tool will analyze buildings/structures that are flooded based on flood area
 
 ##### 2. Fetch Analysis
 This tool will analyze the fetch that is formed from a location by considering the condition/shape of the coastline.
-- The input data needed are: 1) point location (point, * .shp); and polygons of waters with coastlines (polygon, * .shp).
+- The input data needed are: 1) point location (point, * .shp); and 2) polygon of waters with coastlines (polygon, * .shp).
 - The output are: 1) fetch line; and 2) fetch summary with length information and standard deviation in the form of excel tables.
 
 <img src="https://github.com/deqiu1st/Python-Toolbox/blob/master/image/Picture4.png" width="500">

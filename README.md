@@ -3,11 +3,11 @@
 #### By Deky Rahma Sukarno
 This Python toolbox was created as a final project for NRS568 - Python for GIS. This toolbox was prepared by Deky Rahma Sukarno, and is an application of learning obtained from this course under the guidance of Andrew J. Davis from  the University of Rhode Island. All tools are released under the MIT License.
 
-Please download **PythonToolbox-Deky.zip** in this repository, and extract this zip file in the folder of your choice. This zip file contains the python toolbox (Python Deky.pyt Toolbox) and sample data for each tool.
+Please download **PythonToolbox-Deky.zip** in this repository, and extract this zip file in the folder of your choice. This zip file contains the python toolbox (Python Toolbox Deky.pyt) and sample data for each tool.
 
 ![Banner Image](/image/Picture1.png?raw=true)
 
-Please add "Python Deky.pyt Toolbox" to the ArcGIS toolbox to use it.
+Please add "Python Toolbox Deky.pyt" to the ArcGIS toolbox to use it.
 
 ![Banner Image](/image/Picture2.png?raw=true)
 

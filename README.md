@@ -13,21 +13,21 @@ Please add "Python Deky.pyt Toolbox" to the ArcGIS toolbox to use it.
 
 This Python toolbox contains three tools:
 
-1. Flooded Structure Analysis
+##### 1. Flooded Structure Analysis
 This tool will analyze buildings that are flooded for each type of building based on flood area data.
 For this analysis the data needed are: 1) Distribution of structures (point, * .shp); 2) Flood area (polygon, * .shp); and delineation of area (polygon, * .shp).
 The output of the analysis is: 1) the distribution of buildings is flooded based on its type; 2) Heatmap is the number of buildings flooded per square kilometer; and 3) summary of the number of flooded buildings in the form of excel tables.
 
 ![Banner Image](/image/Picture3.png?raw=true)
 
-2. Fetch Analysis
+##### 2. Fetch Analysis
 This tool will analyze the fetch that is formed from a location by considering the condition of the coastline in a waters.
 For this analysis the data needed is: 1) point location (point, * .shp); and polygons of waters with coastlines (polygon, * .shp).
 The output of the analysis is: 1) fetch line; and 2) fetch summary with length information and standard deviation in the form of excel tables.
 
 ![Banner Image](/image/Picture4.png?raw=true)
 
-3. Heatmap Analysis
+##### 3. Heatmap Analysis
 This tool will analyze the distribution of biota location by species in the form of heatmap.
 For this analysis the data needed is a distribution table of biota locations in the form of * .csv.
 The output of this analysis is heatmap per species (polygon, * shp)

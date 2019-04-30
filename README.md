@@ -35,4 +35,4 @@ This tool will analyze the distribution of biota location by species in the form
 <img src="https://github.com/deqiu1st/Python-Toolbox/blob/master/image/Picture5.png" width="500">
 
 
-***Please see the example input file for detailed format and the required array of attributes before you use it for other input files.***
+***Please see the example input file for detailed format and the required attributes format before you use it for other input files.***
